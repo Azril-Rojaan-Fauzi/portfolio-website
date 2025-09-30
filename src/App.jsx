@@ -1,9 +1,12 @@
-import Navigation from "./components/Navigation";
+import Navigation from "./section/Navigation";
+import Hero from "./section/Hero";
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="container">
       <Navigation />
+      <Hero />
+      <section className="min-h-screen"></section>
     </div>
   );
 }
