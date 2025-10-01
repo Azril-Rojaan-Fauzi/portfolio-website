@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Card from "../components/Card";
+import CopyEmailButton from "../components/CopyEmailButton";
 
 const About = () => {
   const grid2Container = useRef();
@@ -70,10 +71,27 @@ const About = () => {
         </div>
 
         {/* Grid 3 */}
-        <div className="grid-black-color grid-3"></div>
+        <div className="grid-black-color grid-3">
+          <div className="z-10 w-full lg:w-[50%]">
+            <p className="headtext">Time Zone</p>
+            <p className="subtext">
+              I am based in Indonesia and available for remote opportunities.
+            </p>
+          </div>
+          <figure className="absolute top-[30%] left-[10%] w-[30rem] lg:top-[10%] lg:left-[40%]">
+            <img src="assets/logos/world-logo.png" alt="world" />
+          </figure>
+        </div>
 
         {/* Grid 4 */}
-        <div className="grid-special-color grid-4"></div>
+        <div className="grid-special-color grid-4">
+          <div className="flex size-full flex-col items-center justify-center gap-4">
+            <p className="headtext text-center">
+              Wanna start a project with me?
+            </p>
+            <CopyEmailButton />
+          </div>
+        </div>
 
         {/* Grid 5 */}
         <div className="grid-default-color grid-5"></div>

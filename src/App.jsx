@@ -4,7 +4,7 @@ import About from "./section/About";
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <Navigation />
       <Hero />
       <About />
