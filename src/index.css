@@ -81,7 +81,7 @@ body {
 }
 
 .subtext {
-  @apply text-sm text-pretty text-neutral-400 md:text-base;
+  @apply text-sm text-pretty text-neutral-300 md:text-base;
 }
 
 /* button components */
@@ -106,7 +106,7 @@ body {
   @apply relative row-span-1 h-[15rem] overflow-hidden duration-200 hover:-translate-y-1 md:col-span-2 md:h-full;
 }
 
-.grid-2 {
+.grid-5 {
   @apply relative row-span-1 h-[15rem] overflow-hidden duration-200 hover:-translate-y-1 md:col-span-4 md:h-full;
 }
 
