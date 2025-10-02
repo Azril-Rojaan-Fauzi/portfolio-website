@@ -5,7 +5,7 @@ const SkillCard = () => {
   const [skillText, setSkillText] = useState("Skills");
   const icons = ["Html", "Css", "Javascript", "React", "Firebase", "Tailwind"];
   return (
-    <div className="grid-default-color grid-5">
+    <div className="grid-default-color grid-5" id="skills">
       <div className="flex h-full w-full flex-col gap-8">
         <div className="z-10 flex w-1/2 flex-col">
           <p className="mt-2 mb-2 text-xl md:text-3xl">Tech Stack</p>
