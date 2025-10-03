@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <section
       onMouseMove={handleMouseMove}
-      className="c-space section-spacing relative"
+      className="c-space relative mt-20 min-h-fit md:mt-30"
       id="projects"
     >
       <h2 className="text-heading">My Projects</h2>
@@ -33,6 +33,9 @@ const Projects = () => {
           style={{ x: springX, y: springY }}
         />
       )}
+      <div className="flex-wrap items-center justify-center space-y-14 py-10 sm:flex sm:space-y-0">
+        <p className="text-heading">Coming Soon</p>
+      </div>
     </section>
   );
 };
