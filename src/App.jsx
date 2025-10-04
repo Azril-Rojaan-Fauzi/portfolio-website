@@ -3,6 +3,7 @@ import Hero from "./section/Hero";
 import About from "./section/About";
 import Projects from "./section/Projects";
 import Experiences from "./section/Experiences";
+import Contact from "./section/Contact";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <About />
         <Projects />
         {/* <Experiences /> */}
-        <section className="min-h-screen"></section>
+        <Contact />
+        {/* <section className="min-h-screen"></section> */}
       </div>
     </div>
   );

@@ -1,16 +1,14 @@
-# React + Vite
+Halo! Saya Azril Rojaan Fauzi, dan ini adalah web portfolio pribadi saya yang menampilkan karya serta kemampuan saya di bidang pengembangan web dengan tema pixel art yang unik dan bergaya retro.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Deskripsi Proyek
 
-Currently, two official plugins are available:
+Website ini saya buat sebagai wadah untuk menampilkan project, skill, dan pengalaman saya di dunia front-end development.
+Terinspirasi dari berbagai tutorial di YouTube, namun saya melakukan modifikasi sendiri pada tema dan tampilan, khususnya dengan menggunakan gaya pixel art agar terlihat berbeda dan lebih personal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Teknologi yang Digunakan
 
-## React Compiler
+React + Tailwind + Motion
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Catatan
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dibuat dengan inspirasi dari tutorial [Ali Sanati Dev], lalu saya modifikasi dengan tema pixel
